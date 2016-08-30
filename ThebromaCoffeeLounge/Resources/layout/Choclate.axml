@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="25dp"
+    android:paddingTop="25dp"
+    android:background="#ff607d8b">
+    <ImageButton
+        android:id="@+id/ChocButton"
+        android:layout_width="195dp"
+        android:layout_height="195dp"
+        android:src="@drawable/Choco"
+        android:layout_marginLeft="75dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginBottom="15dp"
+        android:paddingTop="2dp"
+        android:background="#ffffebee" />
+    <TextView
+        android:text="Strawberry Cream"
+        android:layout_width="165dp"
+        android:layout_height="5dp"
+        android:layout_weight="5"
+        android:layout_marginTop="25dp"
+        android:textColor="#fffafafa"
+        android:id="@+id/textView1"
+        android:typeface="sans"
+        android:textSize="17dp" />
+    <TextView
+        android:text="Caramel Fudge"
+        android:layout_width="178dp"
+        android:layout_height="5dp"
+        android:layout_weight="5"
+        android:layout_marginTop="25dp"
+        android:textColor="#fffafafa"
+        android:id="@+id/textView2"
+        android:textSize="17dp" />
+    <TextView
+        android:text="Dark Butterfly"
+        android:layout_width="114.7dp"
+        android:layout_height="5dp"
+        android:layout_weight="5"
+        android:layout_marginTop="25dp"
+        android:textColor="#fffafafa"
+        android:id="@+id/textView3"
+        android:textSize="17dp" />
+    <TextView
+        android:text="Milk Heart"
+        android:layout_width="114.7dp"
+        android:layout_height="5dp"
+        android:layout_weight="5"
+        android:layout_marginTop="25dp"
+        android:textColor="#fffafafa"
+        android:id="@+id/textView4"
+        android:textSize="17dp" />
+</LinearLayout>

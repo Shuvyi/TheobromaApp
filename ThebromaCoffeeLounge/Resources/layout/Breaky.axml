@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="25dp"
+    android:background="#ff607d8b">
+    <ImageButton
+        android:id="@+id/FoodButton"
+        android:layout_width="195dp"
+        android:layout_height="195dp"
+        android:src="@drawable/Food"
+        android:layout_marginLeft="75dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginBottom="15dp"
+        android:layout_marginTop="15dp" />
+    <TextView
+        android:text="Chicken Burger"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_width="140dp"
+        android:layout_height="34.7dp"
+        android:layout_weight="10"
+        android:layout_marginTop="25dp"
+        android:textColor="#fffafafa"
+        android:id="@+id/textView1" />
+    <TextView
+        android:text="Calamari"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_width="114.7dp"
+        android:layout_height="34.7dp"
+        android:layout_weight="10"
+        android:layout_marginTop="25dp"
+        android:textColor="#fffafafa"
+        android:id="@+id/textView2" />
+    <TextView
+        android:text="Breakfast of Gods"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_width="150dp"
+        android:layout_height="34.7dp"
+        android:layout_weight="10"
+        android:layout_marginTop="25dp"
+        android:textColor="#fffafafa"
+        android:id="@+id/textView3" />
+    <TextView
+        android:text="Prawn Twister"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_width="125dp"
+        android:layout_height="34.7dp"
+        android:layout_weight="10"
+        android:layout_marginTop="25dp"
+        android:textColor="#fffafafa"
+        android:id="@+id/textView4" />
+    <TextView
+        android:text="Ceaser Salad"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_width="114.7dp"
+        android:layout_height="34.7dp"
+        android:layout_weight="10"
+        android:layout_marginTop="25dp"
+        android:textColor="#fffafafa"
+        android:id="@+id/textView5" />
+</LinearLayout>

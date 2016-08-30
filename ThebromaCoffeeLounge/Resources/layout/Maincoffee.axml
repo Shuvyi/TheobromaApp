@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="25dp"
+    android:paddingRight="15dp"
+    android:background="#ff607d8b">
+    <ImageButton
+        android:id="@+id/CoffeeButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/Icon"
+        android:layout_marginLeft="55dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginBottom="15dp" />
+    <TextView
+        android:text="Latte"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_width="114.7dp"
+        android:layout_height="34.7dp"
+        android:id="@+id/textView1"
+        android:layout_weight="10"
+        android:textColor="#fffafafa" />
+    <TextView
+        android:text="Cappucino"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_width="101.3dp"
+        android:layout_height="36.0dp"
+        android:id="@+id/textView2"
+        android:layout_weight="10"
+        android:textColor="#fffafafa" />
+    <TextView
+        android:text="Long Black"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_width="100.0dp"
+        android:layout_height="32.7dp"
+        android:id="@+id/textView3"
+        android:layout_weight="10"
+        android:textColor="#fffafafa" />
+    <TextView
+        android:text="Mocha"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_width="87.3dp"
+        android:layout_height="37.3dp"
+        android:id="@+id/textView4"
+        android:layout_weight="10"
+        android:textColor="#fffafafa" />
+</LinearLayout>

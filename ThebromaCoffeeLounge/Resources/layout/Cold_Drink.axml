@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="25dp"
+    android:background="#ff607d8b">
+    <ImageButton
+        android:id="@+id/IcedButton"
+        android:layout_width="195dp"
+        android:layout_height="195dp"
+        android:src="@drawable/IceLatte"
+        android:layout_marginLeft="65dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginBottom="18dp"
+        android:paddingTop="2dp" />
+    <TextView
+        android:text="Iced Coffee"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_width="114.7dp"
+        android:layout_height="34.7dp"
+        android:layout_weight="10"
+        android:id="@+id/textView1"
+        android:layout_marginTop="25dp"
+        android:textColor="#fffafafa" />
+    <TextView
+        android:text="Iced Chocolate"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_width="150dp"
+        android:layout_height="34.7dp"
+        android:layout_weight="10"
+        android:id="@+id/textView2"
+        android:textColor="#fffafafa" />
+    <TextView
+        android:text="Iced Latte"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_width="114.7dp"
+        android:layout_height="34.7dp"
+        android:layout_weight="10"
+        android:id="@+id/textView3"
+        android:textColor="#fffafafa" />
+    <TextView
+        android:text="Orange Juice"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_width="114.7dp"
+        android:layout_height="34.7dp"
+        android:layout_weight="10"
+        android:textColor="#fffafafa"
+        android:id="@+id/textView4" />
+    <TextView
+        android:text="Mineral Water"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_width="114.7dp"
+        android:layout_height="34.7dp"
+        android:layout_weight="10"
+        android:id="@+id/textView5"
+        android:textColor="#fffafafa" />
+</LinearLayout>

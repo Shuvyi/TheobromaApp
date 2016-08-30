@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:minWidth="25px"
+    android:minHeight="25px">
+    <ImageButton
+        android:src="@drawable/cool"
+        android:id="@+id/AboutButton1"
+        android:layout_width="295dp"
+        android:layout_height="295dp"
+        android:layout_marginLeft="45dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginBottom="15dp"
+        android:paddingTop="2dp"
+        android:background="#ffffebee" />
+    <CheckedTextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/checkedTextView1"
+        android:text="Hi guys my name is Shubham and this application is made by me as a part of my assignment and I got idea of making this applicaiton from my workplace and in future I will try to enhance this application.  "
+        android:textStyle="bold"
+        android:textSize="15dp"
+        android:paddingLeft="6dp" />
+    <Button
+        android:text="Locate Us"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/LocateUs" />
+    <RatingBar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/ratingBar1" />
+    <Button
+        android:text="Connect To Web"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/ConnectUs" />
+</LinearLayout>
